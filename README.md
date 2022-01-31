@@ -16,7 +16,7 @@ L'idée est de créer au moins 3 fonctions : set_gpio_output(int gpio_index), se
 
 ## Rendu
 
-On attend comme rendus un fichier sans main implémentant au moins les 3 fonctions précedants, un deuxième fichier implémentant les tests comprenant un main qui execute et vérifie les tests et un README.md documentant votre code d'un point de vue fonctionnel. On attend un code bien commenté.
+On attend comme rendus un fichier sans main implémentant au moins les 3 fonctions précedants, un deuxième fichier implémentant les tests comprenant un main qui execute et vérifie les tests et un README.md documentant votre code d'un point de vue fonctionnel. On attend un code bien commenté, qui prend en compte de la gestion d'erreurs.
 
 ### Pour commencer
 
