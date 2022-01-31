@@ -10,7 +10,7 @@ Seul un ordinateur est nécessaire.
 
 On va ici évaluer vos connaissances basiques en C embarqué. Voici le sujet :
 
-On va imaginer deux variables globales (etiers non signés 32 bits) direction_gpio_bank1 et value_gpio_bank1. La première variable correspnd au sens des 32 GPIOs du bank1 (0 pour input, 1 pour output) et la deuxième la valeur des 32 GPIOs du bank1 (0 pour GND, 1 pour VCC).
+On va imaginer deux variables globales (etiers non signés 32 bits) direction_gpio_bank1 et value_gpio_bank1. La première variable correspnd au sens des 32 GPIOs du bank1 (0 pour input, 1 pour output) et la deuxième la valeur des 32 GPIOs du bank1 (0 pour GND, 1 pour VCC). Chaque bit de ces variables est allginé de façon à ce que le MSB correponde au GPIO31 et le LSB au GPIO0.
 
 L'idée est de créer au moins 3 fonctions : set_gpio_output(int gpio_index), set_gpio_input(int gpio_index) et write_gpio(int gpio_index)  (vous pourriez avoir besoin de créer des sous fonctions). gpio_index correspond à l'index du gpio que nous voulons modifier (il peut aller de 0 à 31).
 
