@@ -1,5 +1,6 @@
 
 #include <stdint.h>
+#include <stdbool.h>
 
 #include "gpio_manip.h"
 
@@ -14,6 +15,6 @@ int set_gpio_input(int gpio_index){
 
 }
 
-int write_gpio(int gpio_index){
+int write_gpio(int gpio_index, bool value){
 
 }
