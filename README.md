@@ -20,17 +20,12 @@ On attend comme rendus un fichier sans main implémentant au moins les 3 fonctio
 
 ### Pour commencer
 
-Afin de commencer votre code, il faut faire un clone de ce repositiory dans votre espace de travail préféré. Puis créer une branche comprenant votre nom et prénom :
-
+Afin de commencer votre code, il faut faire un clone de ce repositiory dans votre espace de travail préféré.
 ```
 git clone [url]
-git branch [prenom_nom]
-git checkout [prenom_nom]
 ```
 
 Il y a dans ce dossier, des fichiers de code .c contenant une partie du code, servez vous en.
-Une fois votre code terminé, il faut pousser sur votre branche distante (non pas sur le main !!!) :
-```
-git push origin [prenom_nom]
-```
+Une fois votre code terminé, faites un repository avec votre rendu et envoyez le lien à la personne qui vous a intervievé.
+
 **Bonne chance**
