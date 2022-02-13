@@ -1,14 +1,12 @@
 
-#include <stdint.h>
-#include <stdbool.h>
 #include "gpio_manip.h"
 
 uint32_t direction_gpio_bank1 = 0;
 uint32_t value_gpio_bank1 = 0;
 
 
-/* définition du sens de GPIO comme une sortie */
-// la fonction retourne 1 si la définition est possible sinon 0 //
+/* dï¿½finition du sens de GPIO comme une sortie */
+// la fonction retourne 1 si la dï¿½finition est possible sinon 0 //
 
 
 int set_gpio_output(int gpio_index) {
@@ -25,10 +23,8 @@ int set_gpio_output(int gpio_index) {
 }
 
 
-/* definition du sens de GPIO comme une entrée */
-// la fonction retourne 1 si la définition est possible sinon 0 //
-
-}
+/* definition du sens de GPIO comme une entrï¿½e */
+// la fonction retourne 1 si la dï¿½finition est possible sinon 0 //
 
 int set_gpio_input(int gpio_index) {
 
@@ -45,7 +41,7 @@ int set_gpio_input(int gpio_index) {
 }
 
 /* fonction de test de sens de GPIO  */
-//permet de vérifier si l'indice correspend à un GPIO défini comme une sortie//  
+//permet de vï¿½rifier si l'indice correspend ï¿½ un GPIO dï¿½fini comme une sortie//  
 
 bool test_direction_out(int gpio_index) {
 
@@ -63,12 +59,12 @@ bool test_direction_out(int gpio_index) {
 }
 
 /*   fonction d'affectation des sorties  */
-// retourne 1 si l'affectation etait bien réalisée et 0 en cas de l'impossibilité  // 
+// retourne 1 si l'affectation etait bien rï¿½alisï¿½e et 0 en cas de l'impossibilitï¿½  // 
 
 int write_gpio(int gpio_index, bool value) {
 
 
-	if (test_direction_out(int gpio_index))
+	if (test_direction_out(gpio_index))
 	{
 		if (value == 0)
 		{
